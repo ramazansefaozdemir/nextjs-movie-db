@@ -2,7 +2,6 @@ import Head from 'next/head';
 import Link from 'next/link';
 
 function Upcoming({ upcoming }){
-    console.log(upcoming.results)
     return <div className='upcoming'>
         <h2>Upcoming Movies</h2>
         <Head>
