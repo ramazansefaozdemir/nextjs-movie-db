@@ -3,13 +3,14 @@ import Popular from '../components/popular';
 
 function Home({ movies }) {
   return (
-    <div className="container">
-      <Head>
-        <title>The Movie DB - Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <Popular movies={movies} />
-    </div>
+    <>
+        <Head>
+          <title>The Movie DB - Next App</title>
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
+
+        <Popular movies={movies} />
+    </>
   )
 }
 
